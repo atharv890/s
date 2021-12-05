@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Face Recognition App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+  </head>
+
+<body>
+
+
+<center>
+<h1>Face Recognition App</h1>
+<br><br>
+<h2>Model is trained to recognise these emotions -</h2>
+<br><br>
+<div class="container hi">
+<h3> Smile</h3>
+<hr>
+<h3> Angry</h3>
+<hr>
+<h3> Afraid</h3>
+<hr>
+<h3> Cry</h3>
+<hr>
+</div>
+<br>
+  <h2>Webcam view</h2>
+  <br><br>
+<div id="camera"></div>
+<br><br>
+<div id="result"></div>
+<br><br>
+<button onclick="submit()" class="btn btn-primary">Capture image</button>
+<br><br>
+<button onclick="hi()" class="btn btn-primary">Identify image</button>
+<br><br>
+<h3 class="text-primary">Object :</h3> 
+<h3 class="text-primary"><span id="number1"></span></h3> 
+<h3 class="text-primary">Accuracy :</h3>
+<h3 class="text-primary"><span id="number2"></span></h3> 
+<script src="main.js"></script>
+    </center>
+    </body>
+    </html>

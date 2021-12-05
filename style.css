@@ -1,0 +1,12 @@
+body{
+  background:linear-gradient(lightblue,lightyellow);
+
+}
+.hi{
+  background:linear-gradient(lightpink,lightblue);
+}
+#camera{
+  width:300;
+  height:300;
+  border: 5px dotted red;
+}
